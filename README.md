@@ -23,7 +23,7 @@ GoBarber, uma API REST em Node.js (usando o framework Express).
 
 ### Banco de Dados:
 
-All of the following databases were used on top of a docker container.
+Os bancos de dados foram inicializados em containers do Docker.
 
 - [Postgres](https://github.com/postgres/postgres) - banco relacional usado para armazenar os usuários e dados gerais que envolvem relacionamentos.
 - [MongoDB](https://www.mongodb.com/) - banco NoSQL usado para armazenar as notificações. O modelo **schema-free** do Mongo permite mais flexibilidade pois não é estruturado e ganha mais performances pois não efetua *queries* nos relacionamentos.
@@ -58,7 +58,7 @@ Finalmente, para iniciar a aplicação, rode:
 ```
 $ yarn dev
 ```
-##Utilizando a aplicação:
+## Utilizando a aplicação:
 
 A API atua como back-end da aplicação [GoBarber Web](https://github.com/italomarcos1/gobarberweb), siga as instruções no **README** do repositório para rodar a aplicação.
 
