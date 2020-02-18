@@ -48,7 +48,7 @@ $ yarn
 Inicialize os bancos de dados (essa fase está em desenvolvimento, em breve trago instruções)
 
 ```
-none
+...
 ```
 Abra um terminal e execute o comando abaixo para processar a fila, que roda indefinidamente capturando os *jobs* e executando em segundo plano. Deixe o terminal executando:
 ```
@@ -58,9 +58,13 @@ Finalmente, para iniciar a aplicação, rode:
 ```
 $ yarn dev
 ```
-Após isso, recomendo utilizar o [Insomnia](https://insomnia.rest/download/) para enviar as requisições, visto que o front-end ainda não está pronto. Disponibilizarei um arquivo com as rotas para usar a API no o Insomnia.
+##Utilizando a aplicação:
 
-By [Italo Marcos](https://www.linkedin.com/in/italo-m-b181b1117/)
+A API atua como back-end da aplicação [GoBarber Web](https://github.com/italomarcos1/gobarberweb), siga as instruções no **README** do repositório para rodar a aplicação.
+
+Uma outra possibilidade é utilizar o [Insomnia](https://insomnia.rest/download/), um *client* para enviar as requisições e testar a API. O arquivo 'Insomnia_GoBarber' contém as requisições e rotas já prontas para testar a API no Insomnia, basta importar o workspace dentro da aplicação.
+
+Por [Italo Marcos](https://www.linkedin.com/in/italo-m-b181b1117/)
 
 ---
 ## Licença
