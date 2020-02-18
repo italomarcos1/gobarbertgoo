@@ -31,10 +31,13 @@ All of the following databases were used on top of a docker container.
 
 ---
 
-## Instale e execute:
+## Como executar a aplicação:
+
+Clone o repositório:
 ```
 $ git clone https://github.com/italomarcos1/gobarber.git
 ```
+Abra o repositório:
 ```
 $ cd gobarber
 ```
@@ -47,6 +50,11 @@ Inicialize os bancos de dados (essa fase está em desenvolvimento, em breve trag
 ```
 none
 ```
+Abra um terminal e execute o comando abaixo para processar a fila, que roda indefinidamente capturando os *jobs* e executando em segundo plano. Deixe o terminal executando:
+```
+$ yarn queue
+```
+Finalmente, para iniciar a aplicação, rode:
 ```
 $ yarn dev
 ```
